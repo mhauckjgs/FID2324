@@ -46,6 +46,12 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3 {
+	font-family:'Assistant';
+	font-weight: 700;
+	font-size: 24px;
+}
+
 body, html {
 	padding: 0;
 	margin: 0;
@@ -103,9 +109,71 @@ button.accordion-button {
 	background-size:contain;
 }
 
+<<<<<<< HEAD
+/* Start: Icon-Text */
+
+main {
+	padding: 50px 15px;
+}
+
+.row {
+	display:flex;
+}
+
+.text{
+	text-align: center;
+}
+
+.fa-light {
+    color: #FBF2E2;
+=======
+main {
+	background: url("../img/feld_small.png");
+	padding: 100px 0 0 0;
+	height: 90vh;
+	background-size: cover;
+}
+
+main input {
+	display: flex;
+	width: 608px;
+	padding: 50px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 25px;
+>>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
+}
 
 
+.headline{
+	padding-bottom:25px;
+}
 
+/* Ende: Icon-Text */
+
+/* Start: Tablet */
+@media screen AND (min-width: 768px) {
+	
+}
+/* Ende: Tablet */
+
+/* Start: kleiner Desktop */
+@media screen AND (min-width: 992px) {
+	
+	main {
+	padding: 100px 100px;
+	display:flex;
+}
+	
+}
+
+/* Ende: kleiner Desktop */
+
+/* Start: grosser Desktop */
+@media screen AND (min-width: 1200px) {
+	
+}
+/* Ende: grosser Desktop */
 
               
 

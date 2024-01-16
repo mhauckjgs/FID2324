@@ -110,6 +110,7 @@ button.accordion-button {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Start: Icon-Text */
 
 main {
@@ -127,6 +128,8 @@ main {
 .fa-light {
     color: #FBF2E2;
 =======
+=======
+>>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
 main {
 	background: url("../img/feld_small.png");
 	padding: 100px 0 0 0;
@@ -141,6 +144,9 @@ main input {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 25px;
+<<<<<<< HEAD
+>>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
+=======
 >>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
 }
 

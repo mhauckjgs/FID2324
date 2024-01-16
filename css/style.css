@@ -1,0 +1,212 @@
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/adamina-v21-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/adamina-v21-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* assistant-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/assistant-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/assistant-v19-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* assistant-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/assistant-v19-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/assistant-v19-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+* {
+	font-family: 'Assistant';
+	font-weight: 400;
+}
+
+nav a {
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Adamina';
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: #005509; /* Schriftfarbe H1 Tags */
+}
+
+footer {
+	background-color: #005509; /* Hintergrundfarbe footer */
+	color: #FBF2E2; /* Schriftfarbe footer */
+}
+
+footer a {
+	color: #FBF2E2; /* Schriftfarbe Links in Footer */
+}
+
+
+/* Start: Header */
+nav {
+	padding: 16px 15px;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav img {
+	height: 48px;
+	margin-top: 12px;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	list-style-type: none;
+	margin: 0 8px;
+	padding: 12px 8px;
+}
+
+header nav ul li a {
+	color: #171717;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #005509;
+}
+
+header section img {
+	width: 100%;
+}
+
+header {
+	background: url("../img/picture.png");
+	padding: 100px 0 0 0;
+	height: 90vh;
+	background-size: cover;
+}
+/* Ende: Header */
+
+/* Start: Content */
+main {
+	padding: 50px 15px;
+}
+
+main div.img-impressum {
+	display: none;
+}
+/* Ende: Content */
+
+/* Start: Footer */ 
+footer {
+	text-align: center;
+	padding: 40px 15px;
+}
+
+footer button {
+	background-color: #fff;
+	color: #005509;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	padding: 8px 16px;
+	border: none;
+}
+
+footer input {
+	background-color: #EAF9DF;
+	color: #005509;
+	padding: 11px 16px;
+	border: none;
+	position: relative;
+	top: -1px;
+}
+
+footer input::placeholder {
+	color: #005509;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding: 12px 8px;
+}
+
+footer a {
+	text-decoration: none;
+}
+/* Ende: Footer */
+
+/* Start: Tablet */
+@media screen AND (min-width:768px) {
+	
+}
+/* Ende: Tablet */
+
+
+/* Start: kleiner Desktop */
+@media screen AND (min-width:992px) {
+	nav {
+		padding: 16px 102px;
+		justify-content: space-between;
+	}
+
+	main {
+		padding: 100px 102px;
+		display: flex;
+	}	
+	
+	main div.img-impressum {
+		display: block;
+	}
+	
+	main div.img-impressum img {
+		width: 100%;
+	}
+	
+	main div {
+		width: 50%;
+	}
+	
+	footer section {
+		display: flex;
+	}
+	
+	footer div, footer p {
+		text-align: left;
+	}
+	
+	footer ul, footer ul li {
+		justify-content: flex-start;
+		padding-left: 0;
+	}
+}
+/* Ende: kleiner Desktop */
+
+
+/* Start: Desktop */
+@media screen AND (min-width:1200px) {
+	
+}
+/* Ende: Desktop */

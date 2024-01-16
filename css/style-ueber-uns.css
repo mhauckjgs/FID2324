@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/adamina-v21-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/adamina-v21-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* assistant-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/assistant-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/assistant-v19-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* assistant-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/assistant-v19-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/assistant-v19-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+* {
+	font-family: 'Assistant';
+	font-weight: 400;
+}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Adamina';
+}
+
+h2 {
+	font-family: 'Assistant';
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: #005509; /* Schriftfarbe H1 Tags */
+}
+
+.caption {
+	margin-top: 100px;
+}
+
+div#accordionExample {
+	margin-top: 51px;
+}
+
+button.accordion-button {
+	font-family: 'Assistant';
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 110%;
+	}
+
+.accordion-body {
+	font-family: 'Assistant';
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: transparent;
+	color:  #005509;
+	box-shadow: none;
+}
+
+.accordion-button.collapsed {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.accordion-button.collapsed::after {
+	height: 30px;
+	width: 30px;
+  	background-image: url("../img/plus.svg");
+	background-size:contain;
+}
+
+.accordion-button:not(.collapsed)::after {
+	height: 30px;
+	width: 30px;
+  	background-image: url("../img/minus.svg");
+	background-size:contain;
+}
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+

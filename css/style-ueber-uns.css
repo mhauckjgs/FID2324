@@ -61,6 +61,53 @@ h1 {
 	color: #005509; /* Schriftfarbe H1 Tags */
 }
 
+/* Start: Header */
+
+nav {
+	padding: 16px 102px;
+}
+
+nav a {
+	font-weight: 700;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+}
+
+header nav img {
+	height: 48px;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	list-style-type: none;
+	margin: 0 8px;
+	padding: 12 8px;
+}
+
+header nav ul li a {
+	color: #171717;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #005509;
+}
+
+header section img {
+	width: 100%;
+}
+
+/* Ende: Header */
+
+/* Start: Accordion */
+
 .caption {
 	margin-top: 100px;
 }
@@ -109,8 +156,8 @@ button.accordion-button {
 	background-size:contain;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* Ende: Accordion */
+
 /* Start: Icon-Text */
 
 main {
@@ -127,9 +174,8 @@ main {
 
 .fa-light {
     color: #FBF2E2;
-=======
-=======
->>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
+}
+
 main {
 	background: url("../img/feld_small.png");
 	padding: 100px 0 0 0;
@@ -144,10 +190,6 @@ main input {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 25px;
-<<<<<<< HEAD
->>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
-=======
->>>>>>> 3466a4a271a0be988144e19b1fb3e0852c8dd311
 }
 
 
